@@ -121,9 +121,13 @@ input.floatright:hover {
 
 /*alerts*/
 .alert.alert-success {
-    color: var(--color-0);
-    background: var(--transparent-color-3);
-    border: 3px solid var(--transparent-color-1);
+    color: var(--color-6);
+    background: var(--transparent-color-2);
+    border: 3px solid var(--transparent-color-3);
+}
+
+.alert.alert-success a {
+    color: var(--color-7);
 }
 
 /*right and left arrow*/
@@ -164,7 +168,7 @@ input.floatright:hover {
 }
 /*Lion background image*/
 .lion-image-block img:nth-child(1) {
-    content: url(https://static.lioden.com/images/dynamic/backgrounds/romance_03.png);
+    content: url(https://static.lioden.com/images/dynamic/backgrounds/thenav.png);
 }
 
 /*table pride*/
@@ -349,6 +353,255 @@ textarea {
     font-size: larger;
 }
 
+
+/*Territory Page*/
+.bigBox {
+    background: var(--transparent-color-2);
+    color: var(--color-6);
+    overflow: auto;
+    height: 320px;
+    width: 46%;
+    padding: 20px;
+    float: left;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    text-align: left;
+    border: solid 3px var(--transparent-color-3);
+}
+
+.smallBox {
+    overflow: auto;
+    height: 150px;
+    width: 46%;
+    padding: 20px;
+    float: right;
+    margin: 10px;
+    border-radius: 3px;
+    text-align: left;
+    border: solid 3px var(--transparent-color-3);
+    background: var(--transparent-color-2);
+    color: var(--color-6);
+}
+
+#commentBox {
+    border: 3px solid var(--transparent-color-3);
+    border-radius: 10px;
+    padding: 0px;
+    margin-bottom: 5px;
+    height: 300px;
+    overflow: auto;
+    color: var(--color-6);
+    background: none;
+}
+
+a {
+    color: var(--color-7) !important;
+}
+
+h1 {
+    color: var(--color-7);
+    font-size: 28px;
+}
+
+.text-muted {
+    color: var(--color-5);
+}
+
+#comment {
+    text-align: left;
+    width: 85%;
+    background-color: var(--transparent-color-2);
+    border: 3px solid var(--transparent-color-3);
+}
+
+input#comment {
+    color: var(--color-6) !important;
+}
+
+input#postComment {
+    background: var(--color-1);
+    border: 3px solid var(--transparent-color-3);
+    color: var(--color-6);
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.inner-table .left {
+    padding: 6px 8px;
+    text-align: left;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin-bottom: 2px;
+    background: var(--color-0);
+    color: var(--color-5);
+}
+
+.inner-table .right {
+    padding: 6px 8px;
+    text-align: left;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: var(--color-3);
+    color: var(--color-7);
+}
+
+.lion-image-block {
+    border-radius: 15px;
+    border: double 5px var(--color-5);
+}
+
+td.right img:nth-child(1) {
+    border-radius: 15px;
+    border: double 5px var(--color-5);
+}
+
+.cave-grid {
+    background: var(--color-0);
+    border: 3px solid var(--color-0);
+    border-radius: 5px;
+    max-width: 260px;
+    overflow: hidden;
+    padding: 0 0 5px 0;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.cave-grid img:nth-child(1) {
+    content: url(https://images.pexels.com/photos/20622426/pexels-photo-20622426.jpeg);
+}
+
+.mound-grid {
+    background: var(--color-0);
+    border: 1px solid var(--color-0);
+    border-radius: 5px;
+    width: 100%;
+    overflow: hidden;
+    padding: 5px 5px 10px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.mound-grid {
+    background: var(--color-0);
+    border: 1px solid var(--color-0);
+    border-radius: 5px;
+    width: 100%;
+    overflow: hidden;
+    padding: 5px 5px 10px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+th {
+    background: var(--color-0) !important;
+}
+
+.table {
+    border: 1px solid var(--color-4);
+    color: var(--color-5);
+}
+
+td.left {
+    background: var(--color-0) !important;
+}
+
+div .left {
+    background: var(--color-1);
+    padding: 5px 8px;
+    border-radius: 15px;
+    border: 3px solid var(--color-3);
+    color: var(--color-5);
+}
+
+h3 {
+    color: var(--color-5);
+    font-size: 20px;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background: var(--transparent-color-1);
+    border: solid 3px var(--color-1);
+}
+
+select {
+    background: var(--transparent-color-1);
+    color: var(--color-6);
+}
+
+input[type="submit"] {
+    color: var(--color-0);
+    background: var(--color-6);
+    text-shadow: none;
+}
+
+.s-chat-sidebar #label_currentChannel {
+    background: var(--color-5);
+    border: 1px solid var(--color-0);
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    min-width: 140px;
+    padding: 4px 12px;
+    text-shadow: none;
+}
+
+#chatMessagePinned.s-chat-message__pinned {
+    background: var(--color-5) url(//static.lioden.com/images/layout/sticky.png) no-repeat 10px 6px;
+    border-bottom-color: var(--color-7) !important;
+    color: var(--color-0);
+    font-weight: bold;
+}
+
+.s-chat-message {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-left: 6px solid transparent;
+    padding: 4px 6px;
+    position: relative;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background: var(--color-2) !important;
+    color: var(--color-5);
+}
+
+a:link, a:visited, a:active {
+    color: var(--color-6);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.s-chat-message_timestamp {
+    color: var(--color-6);
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    right: 6px;
+    top: 4px;
+}
+
+.s-chat-message_claim {
+    background: var(--color-1);
+    color: var(--color-5);
+}
+
+#fra_chatContainer #txtChatInput {
+    border: 2px solid var(--color-5);
+    border-radius: 3px;
+    height: 26px;
+    padding: 2px;
+    padding-right: 32px;
+    color: var(--color-6);
+}
+
+input#btnChatSend {
+    color: var(--color-0);
+    background: var(--color-5);
+    text-shadow: none;
+}
 
 /*?credits*/
 .breadcrumb::after {
