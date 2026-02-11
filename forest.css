@@ -354,7 +354,7 @@ textarea {
 
 /*?credits*/
 .breadcrumb::after {
-    content: "CSS от Polaris Penumbra (#419566)";
+    content: "CSS by Polaris Penumbra (#419566)";
     position: absolute;
     right: 20%;
     z-index: 100;
