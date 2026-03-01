@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
+:root{
+    --color-0: #ffeabe;
+    --color-1: #fbcd87;
+    --color-2: #dd8875;
+    --color-3: #bc6d71;
+    --color-4: #984f6e;
+    --color-5: #6d4971;
+    --color-6: #362547;
+
+    --tcolor-1: rgba(251, 205, 135, 0.4);
+    --tcolor-2: rgba(221, 136, 117, 0.4);
+    --tcolor-3: rgba(188, 109, 113, 0.4);
+    --tcolor-4: rgba(152, 79, 110, 0.4);
+    --tcolor-5: rgba(109, 73, 113, 0.4);
+    --tcolor-6: rgba(54, 37, 71, 0.4);
+
+    --font-1: "Chathura";
+    --font-2: "Turret Road";
+}
+
+/*credits*/
+.breadcrumb::after {
+    content: "CSS by Polaris Penumbra (#419566)";
+    position: absolute;
+    right: 20%;
+    z-index: 100;
+    color: var(--color-4);
+}
+
+body {
+    background: url(https://images.pexels.com/photos/18013049/pexels-photo-18013049.jpeg) scroll !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+
+/*topbar*/
+.container.topbar {
+    font-family: var(--font-1);
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--color-2);
+    border: 3px solid var(--tcolor-4);
+    border-radius: 15px;
+    background: var(--tcolor-6);
+    padding: 5px 10px;
+}
+
+.container.topbar a {
+    color: var(--color-1);
+}
+
+.container.topbar a:hover {
+    text-shadow: 6px 6px 5px var(--color-2);
+    color: var(--color-0);
+    border: 2px dashed;
+    border-radius: 15px;
+    margin: 0;
+    padding: 0px 2px;
+}
+
+/*navbar*/
+a.navbar-brand.visible-lg.visible-md img {
+    content: url(https://static.lioden.com/images/items/Other/fuschiaflower.png) !important;
+}
+
+
+
+
