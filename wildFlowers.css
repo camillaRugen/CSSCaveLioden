@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+:root {
+    --color-0: #120a02;
+    --color-1: #452506;
+    --color-2: #9e681f;
+    --color-3: #d8a653;
+    --color-4: #e7c378;
+    --color-5: #f0dca8;
+    --color-6: #ffffff;
+    
+    --t-color-1: rgba(69, 38, 6, 0.4);
+    --t-color-2: rgba(158, 103, 32, 0.4);
+    --t-color-3: rgba(217, 165, 82, 0.4);
+    --t-color-4: rgba(232, 197, 121, 0.4);
+    --t-color-5: rgba(240, 219, 168, 0.4);
+    
+    --font-1: 'Playwrite DE Grund';
+    --font-2: 'Bellota';
+}
+
+body {
+    font-family: var(--font-1), sans-serif;
+    background: url(https://images.pexels.com/photos/11946299/pexels-photo-11946299.jpeg) center scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container.topbar {
+    background: var(--color-0);
+    border: 6px double var(--color-2);
+    border-radius: 20px;
+    font-size: 18px;
+    color: var(--color-2);
+}
+
+.container.topbar a {
+    color: var(--color-3);
+    padding: 5px;
+}
+
+.container.topbar a:hover {
+    border-left: 8px solid var(--color-2);
+    border-radius: 25px;
+    border-right: 8px solid var(--color-2);
+    background: var(--t-color-2);
+    color: var(--color-4);
+}
+
+.container.main {
+    background: var(--t-color-1);
+    border-radius: 20px;
+    font-size: 18px;
+    color: var(--color-2);
+    border-top: none;
+    border-right: 2px solid var(--color-2);
+    border-left: 2px solid var(--color-2);
+    box-shadow: none;
+}
+
+nav.navbar.navbar-default {
+    background: var(--color-0);
+    border-bottom: 6px double var(--color-2);
+    border-top: 6px double var(--color-2);
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+nav.navbar.navbar-default a {
+    color: var(--color-3);
+}
+
+ul.nav.navbar-nav.visible-lg a:hover {
+    border-left: 8px solid var(--color-2);
+    border-radius: 25px;
+    border-right: 8px solid var(--color-2);
+    background: var(--t-color-2);
+    color: var(--color-4);
+    margin: 0;
+    padding: 15px 10px;
+}
+
+ol.breadcrumb {
+    background: var(--color-3);
+    font-size: 14px;
+}
+
+ol.breadcrumb a {
+    color: var(--color-0);
+}
+
+li.breadcrumb-item.active {
+    color: var(--color-1);
+    font-weight: 900;
+}
+
+input.floatright {
+    background: var(--color-1) !important;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    color: var(--color-3);
+}
+
+input.floatright:hover {
+    border-left: 8px solid var(--color-2);
+    border-radius: 25px;
+    border-right: 8px solid var(--color-2);
+    background: var(--t-color-2) !important;
+    color: var(--color-1);
+    border-top: none;
+    border-bottom: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+h1.center {
+    color: var(--color-3);
+}
+
+small {
+    color: var(--color-2) !important;
+}
+
+small a {
+    color: var(--color-3) !important;
+}
+
+.lionImage.featured-lion img {
+    content: url(https://static.lioden.com/images/dynamic/backgrounds/febpond.png);
+}
+
+.lionImage.featured-lion {
+    border: double 8px var(--color-2);
+    background: var(--color-1);
+    color: var(--color-3);
+    border-radius: 20px;
+}
+
+table {
+    background: var(--t-color-1);
+    border: 2px solid var(--color-2) !important;
+    color: var(--color-4);
+}
+
+th {
+    background: var(--color-0) !important;
+}
+
+th a {
+    color: var(--color-3) !important;
+}
+
+td.left.b {
+    background: var(--color-1);
+}
+
+td.right_odd {
+    background: var(--t-color-2) !important;
+}
+
+table a {
+    color: var(--color-5) !important;
+}
+
+td.bottom {
+    background: var(--color-0) !important;
+}
+
+select {
+    background: var(--color-1);
+    border: 2px solid var(--color-0);
+    color: var(--color-5) !important;
+}
+
+button.button {
+    background: var(--color-1) !important;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    color: var(--color-3);
+}
+
+button.button:hover {
+    border-left: 8px solid var(--color-2);
+    border-radius: 25px;
+    border-right: 8px solid var(--color-2);
+    background: var(--t-color-2) !important;
+    color: var(--color-3);
+    border-top: none;
+    border-bottom: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+td.top {
+    background: var(--color-0) !important;
+    color: var(--color-5) !important;
+}
+
+input[type="text"] {
+    background: var(--t-color-1);
+    border: 3px solid var(--color-0);
+}
+
+textarea {
+    background: var(--color-0);
+    border: none;
+    scrollbar-color: var(--color-4) var(--color-1);
+}
+
+.col-md-3 .panel {
+    border: none;
+}
+
+.panel {
+    background: var(--color-0) !important;
+    box-shadow: none !important;
+    color: var(--color-5);
+}
+
+.panel-default {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.panel a {
+    color: var(--color-2);
+}
+
+.panel-body {
+    border: 5px double var(--color-2);
+    box-shadow: none;
+}
+
+h3 {
+    color: var(--color-3) !important;
+}
+
+.progress {
+    background: var(--color-1);
+}
+
+.progress div {
+    color: var(--color-5) !important;
+}
+
+.progress-bar {
+    background: var(--t-color-2);
+}
+
+a{
+    cursor: pointer;
+}
+
+/*blocks*/
+.container-block-main
+{
+    color: var(--color-4);
+    height: 800px;
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 3px;
+    font-size: small;
+}
+
+.block-main {
+    display: block;
+    overflow: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    background: var(--t-color-1);
+    border: 5px solid var(--color-2);
+    text-align: center;
+    scrollbar-color: var(--color-4) var(--color-1);
+    line-height: 1;
+    margin: 3px;
+}
+
+.block1-info {
+    grid-column: 1 / 3;
+    grid-row: 1 / 5;
+}
+
+.block2-info {
+    grid-column: 3 / 6;
+    grid-row: 1 / 3;
+}
+
+.block3-info {
+    grid-column: 3 / 6;
+    grid-row: 3 / 5;
+}
+
+.block-main-header font {
+    color: var(--color-5) !important;
+    font-size: x-large !important;
+}
+
+.block-lion-card {
+    display: block;
+    width: 98%;
+    height: auto;
+    margin: 2px;
+    border: 3px solid var(--color-3);
+    border-radius: 10px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.block-lion-card img {
+    width: 100%;
+    height: auto;
+}
+
+.lion-card-name {
+    font-size: larger;
+}
